@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+   /* box-sizing: border-box; */
+   max-width: 100vw;
+   max-height: 100vh;
+}
+body{
+    /* height: 100vh; */
+    width: 100vw;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.nav {
+    background-color: black;
+}
+.nav ul li{
+    float: left;
+    position: relative;
+    left: 195px;
+    padding-right: 15px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav .btn1{
+    position: relative;
+    left: 880px;
+    padding-left: 4px;
+}
+.seperate{
+    background-color: whitesmoke;
+}
+/* .logo{
+    position: fixed;
+} */
+.logo img{
+    position: relative;
+    left: 200px;
+    
+}
+.logo li{
+    position: relative;
+    left: 570px;
+    top: -30px;
+    float: left;
+}
+.logo li a{
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+}
+.image_logo img{
+    position: relative;
+    left: 200px;
+    top: -18px;
+}
+.mar{
+    background-color: rgb(44, 40, 40);
+    position: relative;
+    top: -22px;
+}
+.mar marquee{
+   
+    color: white;
+    height: 40px;
+    padding-top: 20px;
+    position: relative;
+    left: 205px;
+    /* right: -400px; */
+
+}
+.main_content form {
+    height: 600px;
+    width: 265px;
+    position: relative;
+    left: 200px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.main_content button{
+    position: relative;
+    bottom: -20px;
+    padding: 10px;
+    width: 228px;
+    margin-left: 20px;
+    background-color: rgb(80, 17, 17);
+    color: white;
+    border-radius: 5px;
+    font-size:12px;
+    font-weight: bold;
+}
+.content{
+    width: 870px;
+    position: relative;
+    left: 500px;
+    top: -580px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+}
+.content h3{
+    padding-bottom: 10px;
+    color: rgb(68, 67, 67);
+}
+.content img{
+    border-radius: 5px;
+    animation-name: myborder;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+}
+@keyframes myborder{
+    from{
+        border: 10px solid rgba(97, 208, 97, 0.8);
+    }
+    to{
+        border: 10px solid rgba(245, 69, 69, 0.8);
+    }
+}
+.main_content form label a{
+    
+    /* padding: 50px; */
+    padding-left: 35px;
+    padding-right: 30px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    /* position: relative;
+    top: 50px;
+    bottom: 20px; */
+}
+.main_content form label
+{
+ position: relative;
+ left: 20px;
+ /* bottom: 20px; */
+ margin-bottom: 5px;
+ color: black;
+ font-weight: 400;
+}
+.main_content form select{
+    position: relative;
+    left: 20px; 
+    top: 5px;
+    padding: 10px;
+    width: 230px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.main_content form input{
+    position: relative;
+    left: 20px; 
+    top: 10px;
+    padding: 10px;
+    width: 208px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.main_content img{
+    position: relative;
+    top: 60px;
+}
+.link a {
+   position: relative;
+   top: -480px;
+   padding: 10px;
+   line-height: 45px;
+   font-size: x-large;
+   text-decoration: none;
+   color: black;
+}
+.link #one a{
+    position: relative;
+    left: 580px;
+    border-radius: 5px;
+    background-color: rgba(97, 208, 97, 0.8);
+    color: white;
+}
+.link #two a{
+    position: relative;
+    left: 640px;
+    border-radius: 5px;
+    background-color: rgba(97, 208, 97, 0.8);
+    color: white;
+}
+.link #one a:hover{
+    background-color: rgb(97, 208, 97);
+}
+.link #two a:hover{
+    background-color: rgb(97, 208, 97);
+}
+.outer{
+    display: flex;
+}
+.outer{
+    position: relative;
+    left: 500px;
+    top: -450px;
+}
+#box1{
+    border: 1px solid rgb(206, 244, 244);
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(238, 239, 239);
+    border-radius: 5px;
+}
+#box2,#box3{
+    border: 1px solid rgb(206, 244, 244);
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(238, 239, 239);
+    height: 180px;
+    border-radius: 5px;
+}
+#box1 img{
+    position: relative;
+    top: 10px;
+}
+#box1 h3{
+    color: rgb(224, 19, 19);
+    padding-top: 20px;
+    text-align: center;
+}
+#box2 h3,#box3 h3{
+    color: rgb(224, 19, 19);
+    padding-top: 10px;
+    text-align: center; 
+}
+#box2 img, #box3 img{
+    position: relative;
+    top: 10px;
+}
+footer{
+    background-image: url("black.jpg");
+    background-size:cover;
+    position: relative;
+    top: -360px;
+    display: flex;
+    height: 350px;
+}
+.foot{
+    position: relative;
+    left: 250px;
+    top: 30px;
+}
+#first{
+    line-height: 35px;
+    padding-right: 60px;
+    color: rgb(241, 241, 157);
+}
+#first h4{
+    color: white;
+}
+#first a{
+    text-decoration: none;
+    color: rgb(241, 241, 157);
+}
+#second{
+    padding-right: 60px;
+}
+#third{
+    padding-right: 80px;
+}
+#fourth{
+    padding-right: 60px;
+}
+#second a, #third a, #fourth a{
+    text-decoration: none;
+    color: wheat;
+}
+#second h4, #third h4, #fourth h4{
+    color: white;
+    padding-bottom: 10px;
+}
+#buttom p{
+    position: relative;
+    top: 320px;
+    left: -730px;
+}
